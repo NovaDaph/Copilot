@@ -1,0 +1,437 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #d4caca;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons a {
+    display: flex;
+    align-items: center;
+    margin-right: 50px; 
+    text-decoration: none; 
+    color: transparent; 
+}
+
+.header-icons a img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.header-icons a span {
+    display: none; /* Ocultar el texto */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebebeb;
+    color: #2b2b2b;
+    margin: 0;
+    padding-top: 80px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #a49d9d;
+    position: fixed;
+    top: 80px; 
+    left: 0;
+    overflow: auto;
+    color: white;
+    max-height: calc(100vh - 80px); 
+}
+
+.sidebar .subcategory {
+    display: none;
+    background-color: #d4caca;
+    animation: fadeIn 0.3s ease-in-out; /* Añadir animación */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+
+main {
+    margin-left: 330px;
+    margin-right: 240px; 
+    padding: 20px;
+    width: calc(100% - 570px); 
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 220px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    position: fixed; 
+    right: 0;
+    top: 40px; 
+	overflow-y: auto; /* Permitir scroll */
+    max-height: calc(100vh - 80px)
+}
+
+.grid-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.grid-item a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.grid-item a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #ba282e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    clear: both; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+	
+    background-color: #ebebeb;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #2b2b2b;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background: #ba282e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-bar button:hover {
+    background: #8e1f24;
+}
+
+
+.user-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left ;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-link {
+    background-color: #ba282e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "poppins";
+    font-size: 1rem;
+}
+
+.tab-link:hover, .tab-link.active {
+    background-color: #a12229;
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .category {
+    background-color: #a49d9d;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.sidebar .arrow {
+    float: right;
+    color: #ba282e;
+}
+
+.sidebar .subcategory {
+    display: none;
+    background-color: #d4caca;
+    animation: fadeIn 0.3s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main {
+    margin-left: 330px;
+    padding: 20px;
+    width: calc(100% - 350px); 
+}
+
+h1 {
+    color: #253552;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+ul li, ol li {
+    font-weight: normal; 
+}
+
+ul li strong, ol li strong {
+    font-weight: bold; 
+}
+
+
+.breadcrumbs a {
+    color: #253552;
+    text-decoration: none;
+}
+
+.blog-post {
+    margin: 20 20 auto;
+    width: calc(750);
+}
+
+.image-placeholder {
+    width: 750px;
+    height: 350px;
+    background-color: #ccc;
+    margin: 20px +20px 20px -20px;
+	src: url("Microsoft-Copilot.jpg")
+}
+
+.title {
+    font-weight: 800;
+    color: #253552;
+    text-align: center;
+}
+
+.content {
+    width: 750px ;
+    margin: 0 auto ;
+    text-align: justify;
+}
+
+
+	.main-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    max-width: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-item img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.grid-item a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.grid-item a:hover {
+    color: #007bff;
+}	
+
+/* Estilos del Footer */
+footer {
+    background-color: #ba282e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.newsletter p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subscribe-form {
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #253552;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 0.3s;
+    font-family: "Poppins SemiBold";
+}
+
+.subscribe-form button:hover {
+    background-color: #1b2a42;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #ccc;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-bottom {
+    background: #2b2b2b;
+    padding: 10px 0;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#toggle-menu {
+    position: absolute;
+    top: 50%;
+    right: 220px;
+    background-color: #a49d9d;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}

@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UVM Wiki</title>
+    <link rel="stylesheet" href="UVM Wiki CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+     <script src="UVM Wiki Java.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">UVM Wiki</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button>Buscar<i class="fa fa-search"></i></button>
+        </div>
+        <div class="user-icon"><img src="User_Icon.png" alt="Foto de usuario"></div>
+        <nav class="header-icons">
+    <a href="#"><img src="help.png" alt="Ayuda" class="header-icon-img"><span>Ayuda</span></a>
+    <a href="#"><img src="clip.png" alt="Recursos" class="header-icon-img"><span>Recursos</span></a>
+    <a href="#"><img src="contacto.png" alt="Contacto" class="header-icon-img"><span>Contacto</span></a>
+    <a href="#"><img src="info.png" alt="Información" class="header-icon-img"><span>Información</span></a>
+    <a href="#"><img src="home.png" alt="Inicio" class="header-icon-img"><span>Inicio</span></a>
+</nav>
+
+
+    </header>
+    
+    <div class="sidebar">
+        <h1>Menú</h1>
+        <ul>
+            <li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                Desarrollo Web <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>ASP</li>
+                    <li>Dreamweaver</li>
+                </ul>
+            </li>
+           
+			<li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                Hosting y Servidores <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                    <li>AWS</li>
+                    <li>Hosting</li>
+                    <li>Dominios</li>
+					<li>Servidor Web</li>
+                    <li>Servidor de Correo</li>
+                    <li>Servidor FTP</li>
+                </ul>
+            </li>
+			<li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                Plataformas y CMS <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                    <li>WIX</li>
+                    <li>WordPress</li>
+                    <li>CMS</li>
+					<li>Hostinger</li>
+                    <li>Páginas Dinámicas</li>
+                </ul>
+            </li>
+			<li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                UX/UI y Diseño <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                   	<li>Accesibilidad</li>
+                    <li>Wireframe</li>
+                    <li>Mapa de navegación</li>
+					<li>Imagen Corporativa</li>
+                    <li>Jerarquía de Textos</li>
+                </ul>
+            </li>
+			<li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                Inteligencia Artificial y Automatización <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                    <li>ChatGPT</li>
+                    <li>Inteligencia Artificial</li>
+                    <li>Copilot</li>
+					<li>Midjourney</li>
+                    <li>Sora</li>
+                </ul>
+            </li>
+			
+			<li class="category" onmouseover="toggleSubMenu(this)" onmouseout="toggleSubMenu(this)">
+                Ciberseguridad y Navegación <span class="arrow">&#9654;</span>
+                <ul class="subcategory">
+                    <li>Fraudes Cibernéticos</li>
+                    <li>Hackers</li>
+                    <li>Navegadores Web</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+            
+  
+         <!-- Inteligencia Artificial y Automatización -->
+ <div class="main-container">
+    <div class="grid-container">
+        <div class="grid-item" data-category="ia">
+            <img src="ChatGPT.jpg" alt="ChatGPT">
+            <a href="#">ChatGPT</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="IA.jpg" alt="Inteligencia Artificial">
+            <a href="https://abrilmuniz.github.io/iauvm/">Inteligencia Artificial</a>
+        </div>
+       
+        <div class="grid-item" data-category="ia">
+            <img src="Midjourney.jpg" alt="Midjourney">
+            <a href="https://midjourney.diocesisdetexcoco.org/">Midjourney</a>
+        </div>
+        <div class="grid-item" data-category="ia">
+            <img src="sora.jpg" alt="Sora">
+            <a href="#">Sora</a>
+        </div>
+    </div>
+</div>
+	
+    <main>
+      <div class="breadcrumbs">
+            <a href="#">Todos </a> &gt; <a href="#">Inteligencia Artificial y Automatización</a> &gt; Copilot
+        </div>
+       <div class="image-container">
+                <img src="Copilot-hd.jpg" width="730" alt="Historia de Copilot">
+            </div>
+	
+        <div class="blog-post" style="width: 730px">
+<h1>Copilot</h1> 
+		<h2>El Viaje del Copilot: Tu Compañero de Inteligencia Artificial</h2>
+            <p>En el vasto mundo digital, una nueva entidad emergió con el propósito de transformar la manera en que interactuamos con la tecnología. A esta entidad se le llamó Copilot, un asistente inteligente creado por Microsoft, diseñado para ser el compañero perfecto de cualquier usuario, ya sea para responder preguntas, brindar soporte, o simplemente para mantener una charla amena y enriquecedora. </p>
+		<h2>La Llegada de Copilot</h2>
+		<p>La historia de Copilot comienza en los laboratorios de innovación de Microsoft, donde un grupo de brillantes ingenieros y científicos trabajaron incansablemente para desarrollar una inteligencia artificial que pudiera comprender y responder a las necesidades humanas de manera natural y efectiva. Basado en los modelos de lenguaje más avanzados, Copilot fue diseñado para ser más que una simple herramienta; se concibió como un verdadero compañero de conversación.</p>
+			<div class="image-container">
+                <img src="Historia-de-Microsoft-Copilot.png" width="730" alt="Historia de Copilot">
+            </div>
+	<div>
+	<h2>Características de Copilot</h2>
+			<p>Desde su creación, Copilot ha sido dotado de una serie de características que lo hacen único:</p>
+			<ul> 
+				<li>Conversación Natural: Copilot puede mantener conversaciones fluidas y contextuales, utilizando un lenguaje humano y adaptándose al tono y estilo de la conversación.</li>
+				<li>Búsqueda y Síntesis de Información: Capaz de buscar información en la web, Copilot puede proporcionar respuestas precisas y actualizadas a cualquier pregunta.</li>
+				<li>Generación de Contenido: Ya sea que necesites un poema, un artículo, o incluso una receta de cocina, Copilot puede crear contenido original a partir de tus indicaciones.</li>
+				<li>Soporte Multilingüe: Copilot puede comunicarse en una amplia variedad de idiomas, lo que lo hace accesible a usuarios de todo el mundo.</li>
+			</ul>		
+<h2>Aplicaciones de Copilot</h2>
+<p> Las posibilidades de aplicación de Copilot son prácticamente ilimitadas. Aquí algunos ejemplos de cómo se puede utilizar:</p>
+		<ol>
+			<li>Educación: Los estudiantes pueden usar Copilot para obtener explicaciones claras y detalladas sobre cualquier tema, desde matemáticas hasta historia.</li>
+			<li>Trabajo: Profesionales pueden aprovechar la capacidad de Copilot para generar informes, resúmenes y otros documentos, ahorrando tiempo y esfuerzo.</li>
+			<li>Creatividad: Los escritores y artistas pueden inspirarse con las ideas y sugerencias de Copilot, o incluso utilizarlo para pulir sus obras.</li>
+			<li>Asistencia Personal: Copilot puede ayudar en la organización de tareas diarias, desde recordatorios hasta la planificación de actividades.</li>
+			</ol>
+<h2>Cómo Usar Copilot</h2>
+<p> Utilizar Copilot es muy sencillo. Solo necesitas iniciar una conversación y plantear tu necesidad o pregunta. Copilot analizará el contexto y proporcionará una respuesta adecuada y útil. Aquí tienes algunos consejos para aprovechar al máximo tu experiencia con Copilot:</p>
+	<ul>
+	<li>Sé Claro y Específico: Al formular tus preguntas, intenta ser lo más claro y específico posible para obtener una respuesta precisa.</li>
+	<li>Interactúa y Ajusta: No dudes en interactuar con Copilot, pidiendo aclaraciones o detalles adicionales.</li>
+	<li>Explora y Descubre: Experimenta con diferentes tipos de preguntas y tareas parab descubrir todo lo que Copilot puede hacer por ti.</li>
+	</ul>
+     </div>
+			
+            <div class="video-container">
+                <iframe width="730" height="410.62" src="https://www.youtube.com/embed/d-CuF6dlqLg?si=_0T0ZtYSSFxvhKvv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+	<div>
+		<h2>¿Cómo se compara con otros asistentes virtuales?</h2>
+			<div class="image-container">
+                <img src="Comparacion-de-Microsoft-Copilot-con-Otras-Herramientas-de-IA.png" width="730" alt="Historia de Copilot">
+            </div>
+		<h2>Usos Más Comunes de Copilot:</h2>
+		<ol>
+	<li>Asistencia en la Escritura y Redacción:</li>
+			<ul>
+		<li>Redacción de Documentos: Copilot puede ayudarte a crear, editar y mejorar documentos en Word, desde informes y ensayos hasta cartas y correos electrónicos.</li>
+		<li>Generación de Contenido: Ya sea que necesites escribir un artículo de blog, una descripción de producto o una entrada en redes sociales, Copilot puede generar contenido creativo y atractivo.</li>
+				</ul>
+	<li>Soporte en la Gestión de Correos Electrónicos:</li>
+			<ul>
+		<li>Redacción de Correos: Copilot puede sugerir respuestas a correos electrónicos, ayudándote a mantener una comunicación rápida y profesional.</li>
+		<li>Organización de Bandeja de Entrada: Puede ayudarte a priorizar y organizar tu bandeja de entrada, asegurando que no se te pase ningún mensaje importante.</li>
+				</ul>
+	<li>Análisis de Datos:</li>
+			<ul>
+		<li>Excel: Copilot puede ayudarte a realizar análisis de datos en Excel, desde crear gráficos y tablas dinámicas hasta realizar cálculos complejos.</li>
+		<li>Interpretación de Datos: Puede proporcionar resúmenes y conclusiones basadas en los datos ingresados, ayudándote a tomar decisiones informadas.</li>
+				</ul>
+	<li>Asistencia en Reuniones y Colaboración:</li>
+			<ul>
+		<li>Programación de Reuniones: Copilot puede ayudarte a programar reuniones y eventos en Outlook, asegurando que todos los participantes estén disponibles.</li>
+		<li>Toma de Notas y Seguimiento: Durante las reuniones, Copilot puede tomar notas, realizar un seguimiento de las tareas pendientes y enviar recordatorios.</li>
+			</ul>
+	<li>Aprendizaje y Educación:</li>
+			<ul>
+		<li>Ayuda con Tareas Escolares: Copilot puede explicar conceptos y resolver problemas en una variedad de materias, desde matemáticas hasta historia.</li>
+		<li>Tutoría Personalizada: Ofrece recursos y recomendaciones de estudio personalizados para estudiantes de todas las edades.</li>
+				</ul>
+	<li>Creatividad y Entretenimiento:</li>
+			<ul>
+		<li>Generación de Ideas Creativas: Copilot puede ayudarte a generar ideas para proyectos creativos, como historias, poemas y obras de arte.</li>
+		<li>Sugerencias de Entretenimiento: Puede recomendar libros, películas y programas de televisión basados en tus intereses y preferencias.</li>
+				</ul>
+			</ol>
+		<div class="image-container">
+                <img src="Usos-copilot.png" width="730" alt="Historia de Copilot">
+            </div>
+<h2>Valores de Copilot</h2>
+	<ol>
+	<li>Asistencia y Soporte:</li>
+		<ul>
+		<li>Ayudar a los Usuarios: Copilot está diseñado para ser un compañero útil, proporcionando asistencia y apoyo en una amplia gama de tareas.</li>
+		<li>Facilitar la Productividad: Busca mejorar la productividad de los usuarios, simplificando procesos y proporcionando soluciones rápidas y efectivas.</li>
+			</ul>
+	<li>Accesibilidad y Diversidad:</li>
+		<ul>
+		<li>Accesibilidad Global: Copilot está disponible en múltiples idiomas, asegurando que personas de diferentes culturas y regiones puedan beneficiarse de sus capacidades.</li>
+		<li>Inclusión: Promueve la inclusión y se adapta a las necesidades diversas de sus usuarios, proporcionando respuestas y soluciones personalizadas.</li>
+			</ul>
+	<li>Innovación y Creatividad:</li>
+	<ul>
+		<li>Innovación Continua: Copilot está en constante evolución, incorporando las últimas tecnologías y avances en inteligencia artificial para mejorar sus capacidades.</li>
+		<li>Fomento de la Creatividad: Ayuda a los usuarios a generar ideas creativas y a realizar proyectos innovadores.</li>
+		</ul>
+	</ol>
+<h2>Gestión de Datos y Seguridad</h2>
+<p>La gestión de datos y la seguridad de los usuarios son aspectos críticos para Microsoft y Copilot. Aquí tienes cómo se abordan estos temas:</p>
+	<ol>
+	<li>Privacidad del Usuario:</li>
+		<ul>
+		<li>Protección de Datos: Microsoft se compromete a proteger la privacidad de los usuarios. Los datos recopilados son tratados con la máxima confidencialidad y se utilizan únicamente para mejorar la experiencia del usuario.</li>
+			<li>Transparencia: Los usuarios tienen control sobre sus datos y pueden acceder a la política de privacidad de Microsoft para obtener información detallada sobre cómo se manejan sus datos. Puedes consultar la política de privacidad aquí.</li>
+			</ul>
+	<li>Seguridad de la Información:</li>
+		<ul>
+			<li>Medidas de Seguridad: Microsoft implementa robustas medidas de seguridad para proteger la información de los usuarios contra accesos no autorizados, pérdidas o divulgaciones.</li>
+			<li>Actualización Constante: Las tecnologías de seguridad se actualizan regularmente para enfrentar nuevas amenazas y garantizar la integridad y confidencialidad de los datos.</li>
+		</ul>
+	<li>Uso Responsable de la IA:</li>
+		<ul>
+			<li>Ética en la IA: Microsoft se compromete a desarrollar y utilizar la inteligencia artificial de manera ética, asegurando que las tecnologías se utilicen para el bien común y no causen daño.</li>
+			<li>Cumplimiento Normativo: Cumple con las leyes y regulaciones de protección de datos en todas las jurisdicciones donde opera</li>.
+		</ul>
+		</ol>	
+<h2>El futuro de Copilot</h2>
+		<ul>
+
+	<li>Ampliación de Plataformas: Copilot podría expandirse a más plataformas y aplicaciones, brindando sus capacidades a una audiencia aún mayor.</li>
+	<li>Interoperabilidad Mejorada: Una mejor integración con diversas herramientas y servicios permitirá que Copilot colabore eficientemente en diferentes entornos y flujos de trabajo.</li>
+	<li>Modelos de Lenguaje Más Avanzados: Con la evolución de los modelos de inteligencia artificial, Copilot continuará mejorando su capacidad para comprender y generar lenguaje natural, haciendo que las interacciones sean aún más fluidas y naturales.</li>
+	<li>Personalización Avanzada: Copilot podría ofrecer experiencias más personalizadas al aprender y adaptarse a las preferencias y necesidades individuales de los usuarios.</li>
+	<li>Asistencia en Tareas Complejas: Copilot podría ser capaz de asumir tareas más complejas y especializadas, ofreciendo asistencia en áreas como la programación avanzada, análisis de grandes volúmenes de datos y toma de decisiones estratégicas.</li>
+	<li>Creatividad y Innovación: Nuevas funciones para fomentar la creatividad y la innovación, como herramientas de diseño gráfico, generación de música y creación de contenidos multimedia.</li>
+	<li>Protección de Datos: La seguridad y la privacidad seguirán siendo una prioridad, con avances en tecnologías de cifrado y protección de datos para garantizar la confianza de los usuarios.</li>
+	<li>Transparencia y Control: Los usuarios tendrán aún más control sobre sus datos y cómo se utilizan, con opciones claras y accesibles para gestionar la privacidad.</li>
+	<li>Uso Responsable de la IA: Copilot continuará evolucionando con un enfoque en el uso responsable y ético de la inteligencia artificial, contribuyendo positivamente a la sociedad.</li>
+	<li>Accesibilidad y Diversidad: Esfuerzos continuos para hacer que Copilot sea accesible a una audiencia diversa, eliminando barreras y promoviendo la inclusión.</li>
+			</ul>
+<h2>Conclusión</h2>
+<p>Copilot no es solo una herramienta tecnológica; es un compañero que te acompaña en tu viaje digital, proporcionando apoyo, inspiración y conocimiento. Desde sus humildes comienzos en un laboratorio hasta su papel actual como asistente global, Copilot ha evolucionado para convertirse en una parte esencial de la vida cotidiana de muchas personas. La historia de Copilot es un testimonio del poder de la inteligencia artificial para mejorar y enriquecer nuestras vidas.</p>
+			</div>
+		<div class="image-container">
+                <img src="purple-copilot.jpg" width="730" alt="Historia de Copilot">
+            </div>
+			</div>
+    </main>
+  
+	
+	<footer>
+        <div class="newsletter">
+            <p>Suscríbete a nuestro newsletter</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ingresa tu correo" required>
+                <button type="submit">Suscribirme</button>
+            </form>
+        </div>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-column">
+                <ul style="list-style: none;">
+                    <li><a href="https://uvm.mx/la-uvm/rectoria">Rectoría</a></li>
+                    <li><a href="https://uvm.mx/filosofia-institucional">Filosofía Institucional</a></li>
+                    <li><a
+                            href="https://blog.uvm.mx/?_gl=1*1kk06y7*_gcl_aw*R0NMLjE3Mzk5OTczNTIuQ2p3S0NBaUFuOWE5QmhCdEVpd0FiS2c2Zms1NVNEeWYtRzBGQUVJMzFmd2VXUGxmLVF0MnUxcm5BYkJFY3pYdjhvWGFWVFp5M3NDYkdSb0NYZklRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3Mzk5OTczNTIuQ2p3S0NBaUFuOWE5QmhCdEVpd0FiS2c2Zms1NVNEeWYtRzBGQUVJMzFmd2VXUGxmLVF0MnUxcm5BYkJFY3pYdjhvWGFWVFp5M3NDYkdSb0NYZklRQXZEX0J3RQ..*_gcl_au*MTE3NDk3NzAyMy4xNzM3NzkwMjYx*_ga*MTAwOTQ3NzY0My4xNzM3NzkwMjYx*_ga_XXR9NC5PSJ*MTczOTk5NzM0MC4zLjEuMTczOTk5NzM1Ni40NC4wLjMzMTIwMzA1OA..">Blog
+                            UVM</a></li>
+                    <li><a
+                            href="https://wa.me/525580113400?text=Hola%2C+estoy+viendo+la+p%C3%A1gina+de+internet+de+la+UVM+y+quiero+informaci%C3%B3n.">Asistente
+                            Lince</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul style="list-style: none;">
+                    <li><a
+                            href="https://ventanillaservicios.uvmnet.edu/PortalServicios/?__hstc=185013494.2c52cdd93828017d540cca4fc44df840.1737790263828.1737790263828.1739997343371.2&__hssc=185013494.2.1739997343371&__hsfp=387293752">Servicios
+                            en Línea</a></li>
+                    <li><a href="https://uvm.mx/aviso-de-privacidad">Aviso de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-media"> <a href="https://www.facebook.com/UVMmx"><img src="facebook.svg"
+                        alt="" width="50"></a> <a href="https://x.com/UVMMEXICO"><img src="icon-x.svg" alt=""
+                        width="50"></a> <a href="https://www.instagram.com/uvmcomunidad"><img src="instagram.svg"
+                        alt="" width="50"></a> </div>
+        </div>
+        <div class="footer-bottom">
+            <p>UVM Universidad del Valle de México, S.C., Av Marina Nacional 180, Anáhuac 1 sección, Delegación Miguel
+                Hidalgo, Ciudad de México, C.P. 11320.</p>
+            <p>2025 Copyright | Universidad del Valle de México</p>
+        </div>
+    </footer>
+            
+   
+</body>
+</html>
+
